@@ -1,16 +1,55 @@
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
     padding: 0;
     margin: 0;
+    
 }
 
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Poppins';
 
 }
 
 header {
-    padding: 0 30px;
-    background-color: #afadae;
+    padding: 15px 0;
+}
+
+header .nav-1 ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+    gap: 10px;
+    list-style: none;
+    margin-right: 10px;
+    
+    
+}
+
+header .nav-2 ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+header .marcar-exame {
+   
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+
+header .urgencia {
+    background-color: #c04866;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 
@@ -91,7 +130,7 @@ header {
 }
 
 
-#services .otorrino i{
+#services .otorrino i {
     font-size: 100px
 }
 
@@ -122,6 +161,7 @@ header {
     font-weight: 800;
 
 }
+
 .container-unidades {
     text-align: center;
 }
@@ -147,6 +187,7 @@ header {
     height: 250px;
     width: 400px;
 }
+
 .box-unidade {
     background-color: #fff;
     text-align: center;
@@ -165,9 +206,9 @@ header {
 }
 
 
-.text-unidade-shop  {
+.text-unidade-shop {
     color: #c04866;
-    
+
 }
 
 
@@ -176,3 +217,249 @@ header {
     padding: 30px;
 }
 
+#convenio {
+    padding: 30px;
+}
+
+#convenio .text-prin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    color: #7E7A7A;
+    font-size: 46px
+}
+
+#convenio .sub-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: normal;
+    color: #7E7A7A;
+
+}
+
+#convenio .images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#convenio .images img {
+    width: 100px;
+}
+
+#client {
+    background-color: #c04866;
+    height: 50vh;
+    padding: 50px;
+}
+
+#client .container-cliente h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 46px;
+    color: #fff;
+}
+
+#client .boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+#client .talk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 35px 35px 20px;
+    border-radius: 24px;
+    height: 150px;
+    font-weight: 100;
+    color: #fff;
+}
+
+#client .boxs .icone {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#client .talk .text-talk {
+    font-weight: 100;
+    color: #fff;
+}
+
+#client .marcar-exame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+}
+
+#client .marcar-exame .text {
+    color: #c04866;
+
+}
+
+#client .resultados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 35px 35px 20px;
+    border-radius: 24px;
+    height: 150px;
+    color: #fff;
+}
+
+#saiba-mais {
+    padding: 30px;
+    height: 50vh;
+    margin-bottom: 200px;
+}
+
+#saiba-mais .text-prin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    color: #7E7A7A;
+    font-size: 46px
+}
+
+#saiba-mais .text-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: normal;
+    color: #7E7A7A;
+
+}
+
+
+#saiba-mais .boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#saiba-mais .quem-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#saiba-mais .box-border {
+    border: 1px solid rgb(0, 235, 252);
+    padding: 35px 45px 20px;
+    border-radius: 24px;
+}
+
+#saiba-mais .icone {
+    font-size: 100px;
+    color: #7E7A7A;
+}
+
+#saiba-mais .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#saiba-mais .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#saiba-mais .telesaude {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#saiba-mais .text {
+    margin-top: 10px;
+   
+    cursor: pointer;
+    color: #c04866;
+    font-weight: lighter;
+}
+
+
+footer {
+    background-color: #7E7A7A;
+}
+
+footer .container-footer {
+    padding: 30px;
+}
+
+footer .boxs-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    gap: 10px; 
+}
+
+footer .boxs-itens li {
+    margin-right: 10px;
+    
+}
+
+footer .box-left  ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    list-style: none;
+    border-right: 1px solid #c04866;
+}
+
+
+
+footer .box-center ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    list-style: none;
+    border-right: 1px solid #c04866;
+
+}
+
+footer .box-boxs ul {
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    list-style: none;
+    border-right: 1px solid #c04866;
+}
